@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Verify if a user can login with a valid email and password. (Login4)","SUCCESS","2022-05-11T15:11:54.5668282+07:00[Asia/Bangkok]","0.0","0.31"
+"Login","Verify if a user can't login with an invalid email and password. (Login3)","SUCCESS","2022-05-11T15:11:54.9375526+07:00[Asia/Bangkok]","0.0","0.18"
+"Login","Verify if a user can't login with an valid email and invalid password. (Login2)","SUCCESS","2022-05-11T15:11:55.1558422+07:00[Asia/Bangkok]","0.0","0.19"
+"Login","Verify if a user can't login with an invalid email and valid password. (Login1)","SUCCESS","2022-05-11T15:11:55.3791458+07:00[Asia/Bangkok]","0.0","0.15"

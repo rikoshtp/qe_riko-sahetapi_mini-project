@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Order","Add and subtract product quantity and then order without login","SUCCESS","2022-05-11T15:11:55.5807189+07:00[Asia/Bangkok]","0.0","0.39"
+"Order","Add and subtract product quantity and then order with login","SUCCESS","2022-05-11T15:11:56.015225+07:00[Asia/Bangkok]","0.0","0.32"

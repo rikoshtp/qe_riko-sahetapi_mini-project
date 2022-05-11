@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Order" skipped="0" tests="2" time="0.71" timestamp="2022-05-11 03:11:55"><testcase name="Add and subtract product quantity and then order without login"/><testcase name="Add and subtract product quantity and then order with login"/></testsuite>
