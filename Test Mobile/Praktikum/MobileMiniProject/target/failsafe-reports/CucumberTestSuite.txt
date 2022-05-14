@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 92.947 sec <<< FAILURE! - in CucumberTestSuite
+I input valid Email "<email>" and password "password"(Verify if a user can login with a valid email and password. (Login1))  Time elapsed: 38.645 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.view.View//android.widget.EditText[1] (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RIKOSAHETAPI', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\RICO\IdeaProjects\..., appPackage: com.example.frontend_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\RICO\IdeaProjects\..., automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 8, udid: emulator-5554}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 135, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7d5a997b-6e8d-43d1-9c89-355527a9dbbc
+*** Element info: {Using=xpath, value=//android.view.View//android.widget.EditText[1]}
+
+Verify if a user can login with a valid email and password. (Login1)  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.view.View//android.widget.EditText[1] (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RIKOSAHETAPI', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\RICO\IdeaProjects\..., appPackage: com.example.frontend_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\RICO\IdeaProjects\..., automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 8, udid: emulator-5554}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 135, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7d5a997b-6e8d-43d1-9c89-355527a9dbbc
+*** Element info: {Using=xpath, value=//android.view.View//android.widget.EditText[1]}
+

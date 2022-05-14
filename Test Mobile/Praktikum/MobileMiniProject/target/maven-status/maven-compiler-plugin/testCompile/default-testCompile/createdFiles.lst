@@ -1,0 +1,6 @@
+test\automation\stepdefinitions\LoginStep.class
+test\automation\pages\HomeScreen.class
+CucumberTestSuite.class
+test\automation\pages\LoginScreen.class
+test\automation\hooks\BaseDriverHooks.class
+test\automation\stepdefinitions\ProductStep.class
