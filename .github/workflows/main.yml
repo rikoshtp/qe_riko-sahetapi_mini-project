@@ -1,0 +1,25 @@
+---
+name: Test JMeter Action - Mini Project API testing
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [master]
+
+jobs:
+
+  action_build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run JMeter Test
+        uses: ibiqlik/action-yamllint@master
+
+      - name: Run JMeter Action
+        uses: ./
+        with:
+          testFilePath: qe_riko-sahetapi_mini-project/Test-API/Praktikum/apache-jmeter-action-master/tests/MiniProject.jmx
+          outputReportsFolder: reports/
