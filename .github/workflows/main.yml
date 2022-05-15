@@ -17,9 +17,6 @@ jobs:
 
       - name: Run JMeter Test
         uses: ibiqlik/action-yamllint@master
-
-      - name: Run JMeter Action
-        uses: ./
         with:
           testFilePath: Test-API/MiniProject.jmx
           outputReportsFolder: reports/
